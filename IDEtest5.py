@@ -50,6 +50,9 @@ class IDEtest5(unittest.TestCase):
     
     def tearDown(self):
         self.driver.quit()
+        '''
+        This is a meaningless comment
+        '''
         self.assertEqual([], self.verificationErrors)
 
 if __name__ == "__main__":
